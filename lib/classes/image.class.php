@@ -5,6 +5,9 @@
      * User: moritz
      * Date: 10.03.17
      * Time: 16:07
+     * 
+     * LICENSE: MIT
+     * ( See https://github.com/moritzmenzel/image-manipulation-lib/LICENSE )
      */
 
     class Image
