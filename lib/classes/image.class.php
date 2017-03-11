@@ -192,17 +192,17 @@
                 $targetWidth = $this->resourceWidth * $margin;
 
                 while($targetHeight > $rh || $targetHeight > $ch) {
-                    $targetHeight -= 10;
+                    $targetHeight -= 1;
                 }
 
                 $ratio = $targetHeight / $this->resourceHeight;
 
                 while($targetWidth*$ratio > $rw) {
-                    $targetWidth -= 10;
+                    $targetWidth -= 1;
                 }
 
                 while($targetWidth*$ratio > $cw) {
-                    $targetWidth = $targetWidth - 10;
+                    $targetWidth = $targetWidth - 1;
                 }
 
                 $ratio2 = $targetWidth / $rw;
@@ -219,17 +219,17 @@
                 $targetWidth = $this->resourceWidth * $margin;
 
                 while($targetHeight > $rh || $targetHeight > $ch) {
-                    $targetHeight -= 10;
+                    $targetHeight -= 1;
                 }
 
                 $ratio = $targetHeight / $this->resourceHeight;
 
                 while($targetWidth*$ratio > $rw*$margin) {
-                    $targetWidth -= 10;
+                    $targetWidth -= 1;
                 }
 
                 while($targetWidth*$ratio > $cw*$margin) {
-                    $targetWidth = $targetWidth - 10;
+                    $targetWidth = $targetWidth - 1;
                 }
 
                 $ratio2 = $targetWidth / $rw;
@@ -301,8 +301,8 @@
             $newHeight = $rh;
             $newWidth = $rw;
             while($newHeight < $ch || $newWidth < $cw) {
-                $newHeight += 10;
-                $newWidth += 10;
+                $newHeight += 1;
+                $newWidth += 1;
             }
 
             $img = $this->resize($newWidth, $newHeight);
