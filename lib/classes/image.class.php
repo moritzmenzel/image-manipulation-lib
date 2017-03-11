@@ -7,7 +7,7 @@
      * Time: 16:07
      * 
      * LICENSE: MIT
-     * ( See https://github.com/moritzmenzel/image-manipulation-lib/LICENSE )
+     * ( See https://github.com/moritzmenzel/image-manipulation-lib/blob/master/LICENSE )
      */
 
     class Image
